@@ -97,6 +97,7 @@ section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
   .card_box { display: flex; justify-content: space-between; flex-flow: row;
   li { background: white; border: 1px solid $line_color; border-radius: 2.0rem; padding: 4.0rem 3.0rem;
     margin-right: 3.0rem; flex: 1; text-align: center; display: flex; flex-flow: column;
+    box-shadow: 34px 29px 48px rgba(51, 102, 255, 0.05);
     .client_info { margin-bottom: 3.0rem;
       .person_detail_img { width: 5.6rem; height: 5.6rem; margin: 0 auto 1.6rem auto;}
       .person { color: $text_block_10; font-size: 2.1rem;  font-family:'Axiforma-Bold', sans-serif; font-weight: 600; }
@@ -109,4 +110,28 @@ section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
   }
     li:last-child { margin-right: 0;}
   }
+}
+
+.pricing_wrap {  margin: 16.0rem 0;
+ .card_box { display: flex; justify-content: space-between;
+  >li { background: white; border: 1px solid $line_color; padding: 4.0rem 3.0rem; border-radius: 2.0rem;
+    color: $text_color_block; flex: 1; margin-right: 3.0rem;
+  .pricing_info {
+    span { font-size: 2.1rem; line-height: 3.15rem;  margin-bottom: 0.6rem; display: inline-block; }
+    .pricing { font-weight: 700; margin-bottom: 0.6rem;
+      em { font-size: 5.0rem; font-family: 'Axiforma-ExtraBold',sans-serif; letter-spacing: -0.2rem;
+        line-height: 6.5rem; }
+    }
+    p:last-child { margin-bottom: 2.4rem; }
+  }
+  .text {
+    li { margin-bottom: 1.6rem; font-weight: 700; }
+    li:last-of-type { margin-bottom: 3.0rem; }
+  }
+    .text_btn {
+      a { width: 100%; }
+    }
+  }
+  >li:last-child { background: $green; border: 1px solid $green; color: white; margin-right: 0; }
+ }
 }

@@ -27,3 +27,17 @@
     background-repeat: no-repeat;
   }
 }
+.check { position: relative;  z-index: 1; padding-left: 30px !important;
+  &:after {
+    content: ""; position: absolute; width: 2.0rem; height: 2.0rem; left: 0; top: 50%; transform: translateY(-50%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 21'%3E%3Cpath stroke='%23009379' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m16.875 6.025-8.75 8.75L3.75 10.4'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+  }
+}
+.check_white { position: relative;  z-index: 1; padding-left: 30px !important;
+  &:after {
+    content: ""; position: absolute; width: 2.0rem; height: 2.0rem; left: 0; top: 50%; transform: translateY(-50%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 21'%3E%3Cpath stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m16.875 6.025-8.75 8.75L3.75 10.4'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+  }
+}

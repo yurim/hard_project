@@ -237,7 +237,8 @@ section {
     flex: 1;
     text-align: center;
     display: flex;
-    flex-flow: column; }
+    flex-flow: column;
+    box-shadow: 34px 29px 48px rgba(51, 102, 255, 0.05); }
     .testimonial_wrap .card_box li .client_info {
       margin-bottom: 3.0rem; }
       .testimonial_wrap .card_box li .client_info .person_detail_img {
@@ -267,6 +268,47 @@ section {
         height: 2.3rem; }
   .testimonial_wrap .card_box li:last-child {
     margin-right: 0; }
+
+.pricing_wrap {
+  margin: 16.0rem 0; }
+  .pricing_wrap .card_box {
+    display: flex;
+    justify-content: space-between; }
+    .pricing_wrap .card_box > li {
+      background: white;
+      border: 1px solid #D8D8D8;
+      padding: 4.0rem 3.0rem;
+      border-radius: 2.0rem;
+      color: #2D2D2D;
+      flex: 1;
+      margin-right: 3.0rem; }
+      .pricing_wrap .card_box > li .pricing_info span {
+        font-size: 2.1rem;
+        line-height: 3.15rem;
+        margin-bottom: 0.6rem;
+        display: inline-block; }
+      .pricing_wrap .card_box > li .pricing_info .pricing {
+        font-weight: 700;
+        margin-bottom: 0.6rem; }
+        .pricing_wrap .card_box > li .pricing_info .pricing em {
+          font-size: 5.0rem;
+          font-family: 'Axiforma-ExtraBold',sans-serif;
+          letter-spacing: -0.2rem;
+          line-height: 6.5rem; }
+      .pricing_wrap .card_box > li .pricing_info p:last-child {
+        margin-bottom: 2.4rem; }
+      .pricing_wrap .card_box > li .text li {
+        margin-bottom: 1.6rem;
+        font-weight: 700; }
+      .pricing_wrap .card_box > li .text li:last-of-type {
+        margin-bottom: 3.0rem; }
+      .pricing_wrap .card_box > li .text_btn a {
+        width: 100%; }
+    .pricing_wrap .card_box > li:last-child {
+      background: #009379;
+      border: 1px solid #009379;
+      color: white;
+      margin-right: 0; }
 
 /*색상 공통*/
 @font-face {
@@ -423,6 +465,36 @@ section {
     top: 50%;
     transform: translateY(-50%);
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 21'%3E%3Cpath stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M3.125 10.316h13.75M11.25 4.69l5.625 5.626-5.625 5.625'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; }
+
+.check {
+  position: relative;
+  z-index: 1;
+  padding-left: 30px !important; }
+  .check:after {
+    content: "";
+    position: absolute;
+    width: 2.0rem;
+    height: 2.0rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 21'%3E%3Cpath stroke='%23009379' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m16.875 6.025-8.75 8.75L3.75 10.4'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; }
+
+.check_white {
+  position: relative;
+  z-index: 1;
+  padding-left: 30px !important; }
+  .check_white:after {
+    content: "";
+    position: absolute;
+    width: 2.0rem;
+    height: 2.0rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 21'%3E%3Cpath stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m16.875 6.025-8.75 8.75L3.75 10.4'/%3E%3C/svg%3E");
     background-repeat: no-repeat; }
 
 /*# sourceMappingURL=layout.css.map */
