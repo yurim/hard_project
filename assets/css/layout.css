@@ -65,6 +65,20 @@ header {
       background: inherit;
       border: inherit; }
 
+.title {
+  font-size: 3.8rem;
+  font-family: 'Axiforma-ExtraBold', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: -0.2rem; }
+
+.sub_txt {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+  margin-bottom: 6.0rem;
+  color: #2D2D2D; }
+
 /*section 시작*/
 section {
   width: 100%;
@@ -121,6 +135,50 @@ section {
     background-image: url("../images/client_logo_05.png"); }
   .logo_bar article:nth-child(6) {
     background-image: url("../images/client_logo_06.png"); }
+
+.feature_wrap {
+  margin: 16.0rem 0; }
+  .feature_wrap .card_box {
+    display: flex;
+    flex-flow: row; }
+    .feature_wrap .card_box li {
+      background: white;
+      border: 1px solid #D8D8D8;
+      border-radius: 2.0rem;
+      margin-right: 3.0rem;
+      padding: 40px 30px;
+      flex: 1;
+      text-align: center;
+      box-shadow: 3.4rem 2.9rem 4.8rem rgba(51, 102, 255, 0.05); }
+      .feature_wrap .card_box li i {
+        width: 8.2rem;
+        height: 8.2rem;
+        border-radius: 2.0rem;
+        display: block;
+        margin: 0 auto; }
+      .feature_wrap .card_box li .magic_wand {
+        background: rgba(255, 98, 80, 0.2) url("../images/magic_wand.svg") no-repeat 50%; }
+      .feature_wrap .card_box li .bounding_box {
+        background: rgba(0, 147, 121, 0.2) url("../images/bounding_box.svg") no-repeat 50%; }
+      .feature_wrap .card_box li .confetti {
+        background: rgba(248, 213, 126, 0.2) url("../images/confetti.svg") no-repeat 50%; }
+      .feature_wrap .card_box li .card_title {
+        font-size: 2.8rem;
+        letter-spacing: -0.1rem;
+        font-family: 'Axiforma-Bold', sans-serif;
+        margin-top: 3.0rem;
+        margin-bottom: 2.4rem;
+        color: #2D2D2D; }
+      .feature_wrap .card_box li .card_sub_txt {
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        color: #2D2D2D;
+        margin-bottom: 3.0rem; }
+      .feature_wrap .card_box li span {
+        font-family: "Axiforma-SemiBol", sans-serif;
+        color: #009379; }
+    .feature_wrap .card_box li:last-child {
+      margin-right: 0; }
 
 /*색상 공통*/
 @font-face {
@@ -247,6 +305,21 @@ section {
     top: 50%;
     transform: translateY(-50%);
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23F8F9FF' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.667' d='M7.352 14.422C6.46 17.07 2.93 17.07 2.93 17.07s0-3.53 2.648-4.422M15.305 8.234 10 13.54 6.46 10l5.306-5.305c2.007-2.007 4.015-1.984 4.875-1.859a.61.61 0 0 1 .523.523c.125.86.148 2.868-1.86 4.875Z'/%3E%3Cpath stroke='%23F8F9FF' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.667' d='M14.422 9.117v5.047a.626.626 0 0 1-.188.438l-2.523 2.53a.625.625 0 0 1-1.055-.32L10 13.54M10.883 5.578H5.836a.625.625 0 0 0-.438.188l-2.53 2.523a.625.625 0 0 0 .32 1.055L6.46 10'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; }
+
+.arrow_right {
+  position: relative;
+  z-index: 1;
+  padding-right: 25px !important; }
+  .arrow_right:after {
+    content: "";
+    position: absolute;
+    width: 2.0rem;
+    height: 2.0rem;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 21'%3E%3Cpath stroke='%23009379' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M3.125 10.316h13.75M11.25 4.69l5.625 5.626-5.625 5.625'/%3E%3C/svg%3E");
     background-repeat: no-repeat; }
 
 /*# sourceMappingURL=layout.css.map */

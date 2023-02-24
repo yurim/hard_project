@@ -20,7 +20,14 @@ $text_line-height: 1.8;
      }
    }
  }
- /*section 시작*/
+
+// 색션 공통 텍스트 스타일
+.title { font-size: 3.8rem; font-family: 'Axiforma-ExtraBold', sans-serif; text-align: center;
+margin-bottom: 20px; letter-spacing: -0.2rem;  }
+.sub_txt { font-size: 1.6rem; line-height: 2.4rem; text-align: center; margin-bottom: 6.0rem;
+  color: $text_color_block; }
+
+/*section 시작*/
 section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
 .hero_wrap { margin: 16.0rem 0; display: flex; flex-flow: row; justify-content: space-between;
  .hero_info { padding: 4.0rem 0; color: $text_color_block;
@@ -46,4 +53,21 @@ section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
   article:nth-child(4) {background-image: url("../images/client_logo_04.png") }
   article:nth-child(5) {background-image: url("../images/client_logo_05.png") }
   article:nth-child(6) {background-image: url("../images/client_logo_06.png") }
+}
+.feature_wrap { margin: 16.0rem 0;
+.card_box { display: flex; flex-flow: row;
+  li { background: white; border: 1px solid $line_color; border-radius: 2.0rem; margin-right: 3.0rem;
+   padding: 40px 30px; flex: 1; text-align: center;  box-shadow: 3.4rem 2.9rem 4.8rem rgba(51, 102, 255, 0.05);
+    i { width: 8.2rem; height: 8.2rem; border-radius: 2.0rem; display: block; margin: 0 auto;  }
+    .magic_wand { background: rgba(255,98,80, 0.2)  url("../images/magic_wand.svg") no-repeat 50%;  }
+    .bounding_box { background: rgba(0,147,121, 0.2)  url("../images/bounding_box.svg") no-repeat 50%;  }
+    .confetti { background: rgba(248, 213, 126, 0.2) url("../images/confetti.svg") no-repeat 50%;  }
+    .card_title { font-size: 2.8rem; letter-spacing: -0.1rem; font-family:'Axiforma-Bold', sans-serif;
+      margin-top: 3.0rem;  margin-bottom: 2.4rem; color: $text_color_block; }
+    .card_sub_txt { font-size: 1.5rem; line-height: 2.4rem;  color: $text_color_block;
+    margin-bottom: 3.0rem; }
+    span { font-family: "Axiforma-SemiBol", sans-serif; color: $green; }
+  }
+  li:last-child { margin-right: 0; }
+}
 }
