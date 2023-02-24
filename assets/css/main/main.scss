@@ -42,6 +42,7 @@ section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
   .hero_img { width: 45rem; }
 
 }
+
 .logo_bar{ display: flex; border-top: 1px solid $line_color; border-bottom: 1px solid $line_color; padding: 3.0rem 0;
  justify-content: space-between; background-position: center;
   article { display: inline-block; width: 9rem; height: 3rem;
@@ -54,6 +55,7 @@ section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
   article:nth-child(5) {background-image: url("../images/client_logo_05.png") }
   article:nth-child(6) {background-image: url("../images/client_logo_06.png") }
 }
+
 .feature_wrap { margin: 16.0rem 0;
 .card_box { display: flex; flex-flow: row;
   li { background: white; border: 1px solid $line_color; border-radius: 2.0rem; margin-right: 3.0rem;
@@ -64,10 +66,19 @@ section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
     .confetti { background: rgba(248, 213, 126, 0.2) url("../images/confetti.svg") no-repeat 50%;  }
     .card_title { font-size: 2.8rem; letter-spacing: -0.1rem; font-family:'Axiforma-Bold', sans-serif;
       margin-top: 3.0rem;  margin-bottom: 2.4rem; color: $text_color_block; }
-    .card_sub_txt { font-size: 1.5rem; line-height: 2.4rem;  color: $text_color_block;
+    .card_sub_txt { font-size: 1.5rem; line-height: 2.4rem; color: $text_color_block;
     margin-bottom: 3.0rem; }
     span { font-family: "Axiforma-SemiBol", sans-serif; color: $green; }
   }
   li:last-child { margin-right: 0; }
 }
+}
+
+.highlighted_wrap { display: flex; flex-flow: row; justify-content: space-between;
+  .highlighted_img {  width: 54rem; }
+  .highlighted_info { padding: 6.8rem 0 6.8rem 6.0rem;
+    .high_title { font-size: 5.0rem; font-family: 'Axiforma-ExtraBold',sans-serif; letter-spacing: -0.2rem;
+     line-height: 6.5rem; margin-bottom: 2.0rem; color: $text_color_block; }
+    .high_sub_txt { font-size: 2.1rem; line-height: 3.15rem; margin-bottom: 4.0rem; }
+  }
 }

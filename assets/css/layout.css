@@ -180,6 +180,26 @@ section {
     .feature_wrap .card_box li:last-child {
       margin-right: 0; }
 
+.highlighted_wrap {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between; }
+  .highlighted_wrap .highlighted_img {
+    width: 54rem; }
+  .highlighted_wrap .highlighted_info {
+    padding: 6.8rem 0 6.8rem 6.0rem; }
+    .highlighted_wrap .highlighted_info .high_title {
+      font-size: 5.0rem;
+      font-family: 'Axiforma-ExtraBold',sans-serif;
+      letter-spacing: -0.2rem;
+      line-height: 6.5rem;
+      margin-bottom: 2.0rem;
+      color: #2D2D2D; }
+    .highlighted_wrap .highlighted_info .high_sub_txt {
+      font-size: 2.1rem;
+      line-height: 3.15rem;
+      margin-bottom: 4.0rem; }
+
 /*색상 공통*/
 @font-face {
   font-family: 'Axiforma-SemiBol';
@@ -320,6 +340,21 @@ section {
     top: 50%;
     transform: translateY(-50%);
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 21'%3E%3Cpath stroke='%23009379' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M3.125 10.316h13.75M11.25 4.69l5.625 5.626-5.625 5.625'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; }
+
+.arrow_right_white {
+  position: relative;
+  z-index: 1;
+  padding-right: 25px !important; }
+  .arrow_right_white:after {
+    content: "";
+    position: absolute;
+    width: 2.0rem;
+    height: 2.0rem;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 21'%3E%3Cpath stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M3.125 10.316h13.75M11.25 4.69l5.625 5.626-5.625 5.625'/%3E%3C/svg%3E");
     background-repeat: no-repeat; }
 
 /*# sourceMappingURL=layout.css.map */
