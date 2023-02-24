@@ -355,6 +355,42 @@ section {
   .team_wrap .card_box li:last-child {
     margin-right: 0; }
 
+.content_wrap {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 16.0rem 0;
+  background: #F2BFAF;
+  border-radius: 2.0rem; }
+  .content_wrap .content_info {
+    padding: 6.8rem 0 6.8rem 6.0rem;
+    height: 4.3rem; }
+    .content_wrap .content_info .content_title {
+      font-size: 5.0rem;
+      font-family: 'Axiforma-ExtraBold',sans-serif;
+      letter-spacing: -0.2rem;
+      line-height: 6.5rem;
+      margin-bottom: 2.0rem;
+      color: #2D2D2D; }
+    .content_wrap .content_info .content_sub_txt {
+      font-size: 2.1rem;
+      line-height: 3.15rem;
+      margin-bottom: 4.0rem; }
+  .content_wrap .content_img_box {
+    width: 58rem;
+    height: 43rem;
+    overflow: hidden;
+    position: relative; }
+    .content_wrap .content_img_box img {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 100%; }
+    .content_wrap .content_img_box .content_img_m {
+      display: none; }
+
 /*색상 공통*/
 @font-face {
   font-family: 'Axiforma-SemiBol';
