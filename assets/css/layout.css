@@ -224,6 +224,50 @@ section {
     .metric_wrap .metric_item li:last-child {
       margin-right: 0; }
 
+.testimonial_wrap .card_box {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row; }
+  .testimonial_wrap .card_box li {
+    background: white;
+    border: 1px solid #D8D8D8;
+    border-radius: 2.0rem;
+    padding: 4.0rem 3.0rem;
+    margin-right: 3.0rem;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-flow: column; }
+    .testimonial_wrap .card_box li .client_info {
+      margin-bottom: 3.0rem; }
+      .testimonial_wrap .card_box li .client_info .person_detail_img {
+        width: 5.6rem;
+        height: 5.6rem;
+        margin: 0 auto 1.6rem auto; }
+      .testimonial_wrap .card_box li .client_info .person {
+        color: #111827;
+        font-size: 2.1rem;
+        font-family: 'Axiforma-Bold', sans-serif;
+        font-weight: 600; }
+      .testimonial_wrap .card_box li .client_info .detail {
+        color: #374151;
+        font-size: 1.4rem;
+        font-family: 'Axiforma-Light', sans-serif;
+        font-weight: 400; }
+    .testimonial_wrap .card_box li .text_info {
+      color: #2D2D2D;
+      line-height: 2.4rem;
+      font-size: 1.5rem;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      flex: 1; }
+      .testimonial_wrap .card_box li .text_info .star_img {
+        margin-top: 3.0rem;
+        height: 2.3rem; }
+  .testimonial_wrap .card_box li:last-child {
+    margin-right: 0; }
+
 /*색상 공통*/
 @font-face {
   font-family: 'Axiforma-SemiBol';

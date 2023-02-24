@@ -92,3 +92,21 @@ section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
    li:last-child { margin-right: 0; }
  }
 }
+
+.testimonial_wrap {
+  .card_box { display: flex; justify-content: space-between; flex-flow: row;
+  li { background: white; border: 1px solid $line_color; border-radius: 2.0rem; padding: 4.0rem 3.0rem;
+    margin-right: 3.0rem; flex: 1; text-align: center; display: flex; flex-flow: column;
+    .client_info { margin-bottom: 3.0rem;
+      .person_detail_img { width: 5.6rem; height: 5.6rem; margin: 0 auto 1.6rem auto;}
+      .person { color: $text_block_10; font-size: 2.1rem;  font-family:'Axiforma-Bold', sans-serif; font-weight: 600; }
+      .detail { color: $text_block_30; font-size: 1.4rem; font-family: 'Axiforma-Light', sans-serif; font-weight: 400; }
+    }
+    .text_info { color: $text_color_block; line-height: 2.4rem; font-size: 1.5rem;  display: flex; flex-flow: column;
+      justify-content: space-between; flex: 1;
+    .star_img { margin-top: 3.0rem; height: 2.3rem;}
+    }
+  }
+    li:last-child { margin-right: 0;}
+  }
+}
