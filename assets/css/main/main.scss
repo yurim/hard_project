@@ -135,3 +135,22 @@ section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
   >li:last-child { background: $green; border: 1px solid $green; color: white; margin-right: 0; }
  }
 }
+
+.team_wrap {
+.card_box { display: flex; justify-content: space-between; flex-flow: row;
+ li { margin-right: 30px; flex: 1; background: white; border-radius: 2.0rem;
+   box-shadow: 34px 29px 48px rgba(51, 102, 255, 0.05);
+   .text { margin: 2.0rem 0; text-align: center;
+   .name { color: $text_block_10; font-size: 2.1rem;  font-family:'Axiforma-Bold', sans-serif; font-weight: 600; margin-bottom: 0.6rem;}
+   .work { color: $text_block_30; font-size: 1.4rem; font-family: 'Axiforma-Light', sans-serif; font-weight: 400; }
+   }
+   .social_link { padding: 2.0rem 0 3.0rem 0; border-top: 1px solid $line_color; display: flex; justify-content: center;
+     a { width: 3.2rem; height: 3.2rem; display: inline-block; border-radius: 50%; margin-right: 1.6rem; }
+     a:nth-child(1) { background :#E5F4F2 url("../images/sns_01.svg")  no-repeat 50%; }
+     a:nth-child(2) { background :#E5F4F2 url("../images/sns_02.svg")  no-repeat 50%; }
+     a:nth-child(3) { background :#E5F4F2 url("../images/sns_03.svg")  no-repeat 50%; margin-right: 0; }
+   }
+ }
+  li:last-child { margin-right: 0; }
+}
+}
