@@ -1,0 +1,20 @@
+@import "font";
+@import "variable";
+
+$radius:20px;
+
+//메인 버튼 공통 스타일
+.text_btn_style {  color: $green; border: 1px solid $green; text-align: center; background: white;
+  border-radius: $radius; padding: 16px 50px; font-family: "Axiforma-SemiBol", sans-serif;
+}
+
+.text_btn {
+  a { @extend .text_btn_style; display: inline-block; }
+}
+
+//버튼 색상 변경할때
+.text_btn {
+  .green_btn { color: white !important; border: 1px solid $green !important; background: $green !important; }
+  .aqua_btn { color: $green !important; border: 1px solid $aqua !important; background: $aqua !important; }
+  .green_line_btn { color: $green !important; border: 1px solid $green !important; background: white !important; }
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import "font";
+@import "variable";
+
+body { background: $background_color; }
+$text_height: 6.0rem;
+$text_line-height: 1.8;
+/* 해더 시작  1920px container 1170px */
+ header { width: 100%; max-width: 1270px; margin: 0 auto;
+   display: flex; justify-content: space-between; padding: 2.0rem 5.0rem; box-sizing: border-box;
+   .logo { font-size: 2.1rem; color: $text_color_block ;
+     em {  font-family: "Axiforma-Bold", sans-serif; }
+   }
+   .nav_menu {
+     ul { display: flex;
+       li:last-child {  margin-left: 2.0rem; }
+       a { display: block; height:$text_height; line-height: $text_line-height; }
+       a:first-child { background: inherit; border: inherit; }
+     }
+   }
+ }
+ /*section 시작*/
+section { width: 100%; max-width: 1270px; margin: 0 auto; padding: 0 5.0rem; }
+.hero_wrap { margin: 16.0rem 0; display: flex; flex-flow: row; justify-content: space-between;
+ .hero_info { padding: 4.0rem 0; color: $text_color_block;
+  .hero_title { font-size: 6.5rem;  font-family: 'Axiforma-ExtraBold',sans-serif; letter-spacing: -0.25rem; line-height: 1.6;}
+   .hero_sub_txt { font-size: 2.1rem; margin-bottom: 4.0rem; line-height: 1.5;
+    em { color: $bleu; }
+   }
+   .text_btn {
+     a:first-child { margin-right: 18px; }
+   }
+ }
+  .hero_img { width: 45rem; }
+
+}
+.logo_bar{ display: flex; border-top: 1px solid $line_color; border-bottom: 1px solid $line_color; padding: 3.0rem 0;
+ justify-content: space-between; background-position: center;
+  article { display: inline-block; width: 9rem; height: 3rem;
+    background-repeat: no-repeat; background-size: contain;
+  }
+  article:nth-child(1) {background-image: url("../images/client_logo_01.png") }
+  article:nth-child(2) {background-image: url("../images/client_logo_02.png") }
+  article:nth-child(3) {background-image: url("../images/client_logo_03.png") }
+  article:nth-child(4) {background-image: url("../images/client_logo_04.png") }
+  article:nth-child(5) {background-image: url("../images/client_logo_05.png") }
+  article:nth-child(6) {background-image: url("../images/client_logo_06.png") }
+}

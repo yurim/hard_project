@@ -1,0 +1,15 @@
+/*아이콘*/
+.mark_icon { position: relative;  z-index: 1; padding-left: 35px !important;
+  &:after {
+    content: ""; position: absolute; width: 3.2rem; height: 3.2rem; left: 0; top: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 32 32'%3E%3Cpath stroke='%232D2D2D' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M27 9H5a1 1 0 0 0-1 1v15a1 1 0 0 0 1 1h22a1 1 0 0 0 1-1V10a1 1 0 0 0-1-1ZM10 3l6 6 6-6'/%3E%3Cpath fill='%232D2D2D' d='M23.5 16a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM23.5 22a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z'/%3E%3Cpath stroke='%232D2D2D' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 26V9'/%3E%3C/svg%3E");
+   background-repeat: no-repeat;
+  }
+}
+.rocket_icon { position: relative;  z-index: 1;  padding-left: 75px !important;
+  &:after {
+    content: ""; position: absolute; width: 2.0rem; height: 2.0rem; left: 5.0rem; top: 50%; transform: translateY(-50%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23F8F9FF' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.667' d='M7.352 14.422C6.46 17.07 2.93 17.07 2.93 17.07s0-3.53 2.648-4.422M15.305 8.234 10 13.54 6.46 10l5.306-5.305c2.007-2.007 4.015-1.984 4.875-1.859a.61.61 0 0 1 .523.523c.125.86.148 2.868-1.86 4.875Z'/%3E%3Cpath stroke='%23F8F9FF' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.667' d='M14.422 9.117v5.047a.626.626 0 0 1-.188.438l-2.523 2.53a.625.625 0 0 1-1.055-.32L10 13.54M10.883 5.578H5.836a.625.625 0 0 0-.438.188l-2.53 2.523a.625.625 0 0 0 .32 1.055L6.46 10'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+  }
+}

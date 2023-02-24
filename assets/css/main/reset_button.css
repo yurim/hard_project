@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Axiforma-Light";
+  src: url("//db.onlinewebfonts.com/t/9457c08494c18c480656f79771950fac.eot");
+  src: url("//db.onlinewebfonts.com/t/9457c08494c18c480656f79771950fac.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9457c08494c18c480656f79771950fac.woff") format("woff"); }
+@font-face {
+  font-family: "Axiforma Medium";
+  src: url("//db.onlinewebfonts.com/t/139f801bd31bd849b3b9b8fb1962940e.eot");
+  src: url("//db.onlinewebfonts.com/t/139f801bd31bd849b3b9b8fb1962940e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/139f801bd31bd849b3b9b8fb1962940e.woff") format("woff"); }
+@font-face {
+  font-family: "Axiforma-Regular";
+  src: url("//db.onlinewebfonts.com/t/ef3aab6eae44b00ed09594544784e6d8.eot");
+  src: url("//db.onlinewebfonts.com/t/ef3aab6eae44b00ed09594544784e6d8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ef3aab6eae44b00ed09594544784e6d8.woff") format("woff"); }
+@font-face {
+  font-family: "Axiforma-Bold";
+  src: url("//db.onlinewebfonts.com/t/f38da0f7340f0f57c58f17fdd59be485.eot");
+  src: url("//db.onlinewebfonts.com/t/f38da0f7340f0f57c58f17fdd59be485.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f38da0f7340f0f57c58f17fdd59be485.woff") format("woff"); }
+/*색상 공통*/
+.text_btn_style, .text_btn_wrap a {
+  color: #009379;
+  border-bottom: 1px solid #009379;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  padding: 16px 50px; }
+
+.text_btn_wrap .green_btn {
+  color: white !important;
+  border-bottom: 1px solid #009379 !important;
+  background: #009379 !important; }
+.text_btn_wrap .aqua_btn {
+  color: #009379 !important;
+  border-bottom: 1px solid #E5F4F2 !important;
+  background: #E5F4F2 !important; }
+
+/*# sourceMappingURL=reset_button.css.map */
