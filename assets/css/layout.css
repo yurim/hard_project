@@ -391,6 +391,121 @@ section {
     .content_wrap .content_img_box .content_img_m {
       display: none; }
 
+.contact_form_wrap {
+  margin-bottom: 16rem;
+  display: flex;
+  background: white;
+  border: 1px solid #D8D8D8;
+  border-radius: 2.0rem;
+  padding: 6.0rem; }
+  .contact_form_wrap .contact_info {
+    color: #2D2D2D;
+    margin-right: 6.0rem;
+    flex: 1; }
+    .contact_form_wrap .contact_info .contact_title {
+      font-size: 3.8rem;
+      font-family: 'Axiforma-ExtraBold',sans-serif;
+      letter-spacing: -0.2rem;
+      margin-bottom: 1.0rem; }
+    .contact_form_wrap .contact_info .contact_details {
+      margin: 4.0rem 0 10.6rem 0; }
+      .contact_form_wrap .contact_info .contact_details .phone {
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 2.0rem; }
+        .contact_form_wrap .contact_info .contact_details .phone:before {
+          content: "";
+          background: url("../images/phone.svg") no-repeat 50%;
+          width: 24px;
+          height: 24px;
+          display: inline-block;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%); }
+      .contact_form_wrap .contact_info .contact_details .email {
+        position: relative;
+        padding-left: 35px; }
+        .contact_form_wrap .contact_info .contact_details .email:before {
+          content: "";
+          background: url("../images/envelope_simple.svg") no-repeat 50%;
+          width: 24px;
+          height: 24px;
+          display: inline-block;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%); }
+    .contact_form_wrap .contact_info .social_media span {
+      font-size: 2.1rem;
+      font-weight: 600;
+      font-family: 'Axiforma-Bold',sans-serif;
+      display: inline-block;
+      margin-bottom: 2.0rem; }
+    .contact_form_wrap .contact_info .social_media .social_links {
+      display: flex; }
+      .contact_form_wrap .contact_info .social_media .social_links a {
+        width: 3.2rem;
+        height: 3.2rem;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 1.6rem; }
+      .contact_form_wrap .contact_info .social_media .social_links a:nth-child(1) {
+        background: #E5F4F2 url("../images/sns_01.svg") no-repeat 50%; }
+      .contact_form_wrap .contact_info .social_media .social_links a:nth-child(2) {
+        background: #E5F4F2 url("../images/sns_02.svg") no-repeat 50%; }
+      .contact_form_wrap .contact_info .social_media .social_links a:nth-child(3) {
+        background: #E5F4F2 url("../images/sns_04.svg") no-repeat 50%; }
+      .contact_form_wrap .contact_info .social_media .social_links a:nth-child(4) {
+        background: #E5F4F2 url("../images/sns_03.svg") no-repeat 50%;
+        margin-right: 0; }
+  .contact_form_wrap .contact_form {
+    flex: 1; }
+    .contact_form_wrap .contact_form li {
+      position: relative; }
+      .contact_form_wrap .contact_form li i {
+        border-right: 1px solid #DBE3FF;
+        padding-right: 3rem;
+        width: 2.0rem;
+        height: 2.0rem;
+        display: inline-block; }
+      .contact_form_wrap .contact_form li .user {
+        background: url("../images/user.svg") no-repeat 50%;
+        position: absolute;
+        left: 0;
+        top: calc(50% - 6px);
+        transform: translateY(-50%); }
+      .contact_form_wrap .contact_form li .email {
+        background: url("../images/envelope_simple.svg") no-repeat 50%;
+        position: absolute;
+        left: 0;
+        top: calc(50% - 6px);
+        transform: translateY(-50%); }
+      .contact_form_wrap .contact_form li *::placeholder {
+        color: #2D2D2D;
+        font-size: 1.6rem;
+        font-weight: 400;
+        font-family: "Axiforma Book", sans-serif; }
+      .contact_form_wrap .contact_form li input, .contact_form_wrap .contact_form li textarea {
+        border: 1px solid #D8D8D8;
+        border-radius: 2.0rem;
+        width: 100%; }
+      .contact_form_wrap .contact_form li input {
+        margin-bottom: 1.0rem;
+        height: 6.0rem;
+        padding: 0.8rem 2.0rem 0.8rem 6.5rem; }
+      .contact_form_wrap .contact_form li textarea {
+        resize: none;
+        height: 18.0rem;
+        padding: 0.8rem 2.0rem; }
+    .contact_form_wrap .contact_form button {
+      padding: 1.6rem 5.0rem;
+      background: #009379;
+      color: white;
+      font-family: "Axiforma-SemiBol", sans-serif;
+      border-radius: 2.0rem;
+      margin-top: 2.0rem; }
+
 /*색상 공통*/
 @font-face {
   font-family: 'Axiforma-SemiBol';
