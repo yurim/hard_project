@@ -200,6 +200,30 @@ section {
       line-height: 3.15rem;
       margin-bottom: 4.0rem; }
 
+.metric_wrap {
+  margin: 16.0rem 0; }
+  .metric_wrap .metric_item {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between; }
+    .metric_wrap .metric_item li {
+      background: white;
+      border-top-left-radius: 2.0rem;
+      border-top-right-radius: 2.0rem;
+      padding: 4.8rem 1.6rem;
+      border-bottom: 4px solid #F2BFAF;
+      text-align: center;
+      color: #2D2D2D;
+      flex: 1;
+      margin-right: 3.0rem;
+      box-shadow: 34px 29px 48px rgba(51, 102, 255, 0.05); }
+      .metric_wrap .metric_item li .metric_item_title {
+        font-size: 3.8rem;
+        font-family: 'Axiforma-ExtraBold',sans-serif;
+        letter-spacing: -0.2rem; }
+    .metric_wrap .metric_item li:last-child {
+      margin-right: 0; }
+
 /*색상 공통*/
 @font-face {
   font-family: 'Axiforma-SemiBol';
