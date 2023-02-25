@@ -569,7 +569,19 @@ section {
         width: 7rem;
         height: 2.1rem;
         background-repeat: no-repeat;
-        background-size: contain; } }
+        background-size: contain; }
+    section .feature_wrap {
+      margin: 10.0rem 0; }
+      section .feature_wrap .card_box {
+        display: flex;
+        flex-flow: column; }
+        section .feature_wrap .card_box li {
+          margin-right: 0;
+          margin-bottom: 2.0rem; }
+          section .feature_wrap .card_box li .card_title {
+            font-size: 2.1rem; }
+        section .feature_wrap .card_box li:last-child {
+          margin-bottom: 0; } }
 /* Mobile */
 /*색상 공통*/
 @font-face {
