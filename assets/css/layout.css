@@ -534,6 +534,43 @@ section {
       background: #4E4D4D url("../images/sns_white_04.svg") no-repeat 50%;
       margin-right: 0; }
 
+/* Tablet */
+@media all and (max-width: 750px) {
+  /* header */
+  header {
+    padding: 2.0rem 3.0rem; }
+    header .text_btn li:nth-child(1), header .text_btn li:nth-child(2) {
+      display: none; }
+
+  /* section */
+  section {
+    padding: 0 3.0rem; }
+    section .hero_wrap {
+      margin: 10.0rem 0;
+      flex-flow: column; }
+      section .hero_wrap .hero_info {
+        text-align: center; }
+        section .hero_wrap .hero_info .hero_title {
+          font-size: 6.7rem;
+          line-height: 8.75rem;
+          margin-bottom: 2.0rem; }
+        section .hero_wrap .hero_info .hero_sub_txt {
+          font-size: 2.1rem;
+          margin-bottom: 3.0rem; }
+        section .hero_wrap .hero_info .text_btn a:last-child {
+          display: none; }
+      section .hero_wrap .hero_img {
+        width: 32rem;
+        margin: 0 auto; }
+    section .logo_bar {
+      padding: 2.0rem 0; }
+      section .logo_bar article {
+        display: inline-block;
+        width: 7rem;
+        height: 2.1rem;
+        background-repeat: no-repeat;
+        background-size: contain; } }
+/* Mobile */
 /*색상 공통*/
 @font-face {
   font-family: 'Axiforma-SemiBol';
